@@ -23,14 +23,14 @@ java CloudFileLogger
 
 ### rectangle.java
 
-Computes area of rectangles using the `Rectangle` class. Entry point is the `Wow` class.
+Computes area of rectangles using the `Rectangle` class. Entry point is the `RectangleArea` class.
 
 ```bash
 # Compile
 javac rectangle.java
 
 # Run
-java Wow
+java RectangleArea
 ```
 
 ## Quick Reference
