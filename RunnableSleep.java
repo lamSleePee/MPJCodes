@@ -22,7 +22,7 @@ class OneSecondTask implements Runnable {
     }
 }
 
-public class RunnableSleepDemo {
+public class RunnableSleep {
     public static void main(String[] args) {
         Thread t1 = new Thread(new HalfSecondTask(), "HalfSecondTask");
         Thread t2 = new Thread(new OneSecondTask(), "Thread-OneSecond");

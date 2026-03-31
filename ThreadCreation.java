@@ -11,7 +11,7 @@ class MyWorkerThread extends Thread {
     }
 }
 
-public class ThreadCreationDemo {
+public class ThreadCreation {
     public static void main(String[] args) {
         for (int i = 0; i < 8; i++) {
             MyWorkerThread t = new MyWorkerThread();
